@@ -12,7 +12,7 @@ describe('TodoService', () => {
     service = module.get<TodoService>(TodoService);
   });
 
-  it('should be defined', () => {
+  it('should be define', () => {
     expect(service).toBeDefined();
   });
 });
